@@ -43,7 +43,7 @@ Create a **classic** Personal Access Token with the **`repo`** and **`admin:org`
 ## 3. Fork the workshop repository
 
 1. Go to the main workshop repo on GitHub:  
-   **https://github.com/willjhenry/tdwi-sklearn-wine-starter** *(update when published)*
+   **https://github.com/willjhenry/tdwi-sklearn-wine-starter**
 2. Click **Fork** → **Create a new fork**
 3. Click **Create fork** in the lower right
 
