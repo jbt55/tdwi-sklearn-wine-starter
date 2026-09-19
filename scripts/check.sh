@@ -5,9 +5,6 @@
 set -euo pipefail
 cd "$(dirname "$0")/.."
 
-echo "==> pip install --dry-run"
-pip install --dry-run -r requirements.txt
-
 # Optional extension points (uncomment as you adopt):
 # echo "==> ruff check"
 # ruff check .
