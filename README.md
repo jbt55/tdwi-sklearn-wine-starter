@@ -54,6 +54,9 @@ Create a **classic** Personal Access Token with the **`repo`** and **`admin:org`
 3. Paste the HTTPS URL and clone the repo
 4. Select **Open** when asked if you would like to open the cloned repository
 5. Select **Open Workspace** when the popup appears in the lower right
+6. Reload Cursor so Git and Agent pick up the new folder: Command Palette (**Cmd/Ctrl + Shift + P**) → **Developer: Reload Window**
+
+If Git or Agent still look stuck after you authenticate in step 6, reload again.
 
 ## 5. Set up the Python environment (`.venv`)
 
@@ -159,7 +162,7 @@ If Git still uses the old account, run:
 gh auth setup-git
 ```
 
-Then try **Synchronize Changes** again.
+Then try **Synchronize Changes** again. Reload Cursor afterward (**Developer: Reload Window**) so Git picks up the new login.
 
 ---
 
